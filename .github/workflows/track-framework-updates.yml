@@ -30,7 +30,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
         with:
-          ref: develop
+          ref: cedar-mist-23d2411e5bf0
 
       - name: Determine lookback window
         id: params
