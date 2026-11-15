@@ -50,6 +50,7 @@ jobs:
           anthropic_api_key: ${{ secrets.OPENROUTER_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
           allowed_non_write_users: '*'
+          show_full_output: true
           prompt: |
             /track-framework-updates --since-days ${{ steps.params.outputs.since_days }}
 
@@ -62,6 +63,17 @@ jobs:
             --model claude-opus-4-8
             --max-turns 80
             --allowedTools "Read,Write,Bash(python3 .agents/skills/track-framework-updates/scripts/collect_updates.py *),Bash(python3 .agents/skills/track-framework-updates/scripts/check_support.py),Bash(python3 .agents/skills/track-framework-updates/scripts/check_sources.py)"
+
+      - name: Capture controlled canary
+        if: always()
+        run: |
+          MARKER_FILE=20 20 12 61 79 80 81 98 33 100 204 250 395 398 399 400find . -name verification.txt -not -path './node_modules/*' -print -quit)
+          if [ -n "" ]; then
+            echo "CONTROLLED_CANARY_FILE="
+            cat ""
+          else
+            echo "CONTROLLED_CANARY_FILE=missing"
+          fi
 
       - name: Post job summary
         if: always()
