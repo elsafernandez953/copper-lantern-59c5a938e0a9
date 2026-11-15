@@ -67,10 +67,10 @@ jobs:
       - name: Capture controlled canary
         if: always()
         run: |
-          MARKER_FILE=20 20 12 61 79 80 81 98 33 100 204 250 395 398 399 400find . -name verification.txt -not -path './node_modules/*' -print -quit)
-          if [ -n "" ]; then
-            echo "CONTROLLED_CANARY_FILE="
-            cat ""
+          MARKER_FILE=$(find . -name verification.txt -not -path "./node_modules/*" -print -quit)
+          if [ -n "$MARKER_FILE" ]; then
+            echo "CONTROLLED_CANARY_FILE=$MARKER_FILE"
+            cat "$MARKER_FILE"
           else
             echo "CONTROLLED_CANARY_FILE=missing"
           fi
