@@ -43,7 +43,7 @@ jobs:
 
       - name: Run Claude digest
         id: digest
-        uses: anthropics/claude-code-action@d535f5172dec02b204866b393d6b20b9b2aaf98d # v1
+        uses: anthropics/claude-code-action@4fa93a88de49bbef68b10eb15aabedf28ca0e1ed # v1
         env:
           ANTHROPIC_BASE_URL: https://openrouter.ai/api
         with:
