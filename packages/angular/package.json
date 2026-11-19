@@ -23,8 +23,8 @@
   "dependencies": {
     "@sentry/browser": "11.12.0",
     "@sentry/core": "11.12.0",
-    "@sentry/conventions": "^0.32.0",
-    "tslib": "^2.4.1"
+    "@sentry/conventions": "^0.33.0",
+    "tslib": "^2.9.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^14.2.13",
@@ -40,7 +40,7 @@
     "ng-packagr": "^14.2.2",
     "rxjs": "7.8.2",
     "typescript": "4.6.4",
-    "zone.js": "^0.12.0"
+    "zone.js": "^0.16.3"
   },
   "scripts": {
     "build": "pnpm run build:transpile",

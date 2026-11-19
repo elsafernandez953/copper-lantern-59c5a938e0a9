@@ -46,7 +46,7 @@
   "dependencies": {
     "@sentry/browser": "11.12.0",
     "@sentry/core": "11.12.0",
-    "@sentry/conventions": "^0.32.0"
+    "@sentry/conventions": "^0.33.0"
   },
   "peerDependencies": {
     "@tanstack/vue-router": "^1.64.0",
@@ -64,7 +64,7 @@
   "devDependencies": {
     "@sentry-internal/rollup-utils": "11.12.0",
     "@tanstack/vue-router": "^1.64.0",
-    "vue": "~3.5.44"
+    "vue": "~3.5.45"
   },
   "scripts": {
     "build": "pnpm run \"/^build:(transpile|types)$/\"",
