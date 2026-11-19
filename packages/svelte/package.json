@@ -33,19 +33,19 @@
   },
   "dependencies": {
     "@sentry/browser": "11.12.0",
-    "@sentry/conventions": "^0.32.0",
+    "@sentry/conventions": "^0.33.0",
     "@sentry/core": "11.12.0",
-    "magic-string": "~0.30.0"
+    "magic-string": "~1.4.5"
   },
   "peerDependencies": {
     "svelte": "3.x || 4.x || 5.x"
   },
   "devDependencies": {
     "@sentry-internal/rollup-utils": "11.12.0",
-    "@sveltejs/vite-plugin-svelte": "1.4.0",
-    "@testing-library/svelte": "^3.2.1",
+    "@sveltejs/vite-plugin-svelte": "7.3.1",
+    "@testing-library/svelte": "^5.4.2",
     "svelte": "3.59.2",
-    "vite": "^8.3.6"
+    "vite": "^8.3.8"
   },
   "scripts": {
     "build": "pnpm run \"/^build:(transpile|types)$/\"",

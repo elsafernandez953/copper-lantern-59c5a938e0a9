@@ -45,13 +45,13 @@
   "dependencies": {
     "@sentry/bundler-plugins": "11.12.0",
     "@sentry/core": "11.12.0",
-    "@sentry/conventions": "^0.32.0",
+    "@sentry/conventions": "^0.33.0",
     "@sentry/node": "11.12.0",
     "@sentry/server-utils": "11.12.0"
   },
   "devDependencies": {
     "@sentry-internal/rollup-utils": "11.12.0",
-    "bun-types": "^1.2.9"
+    "bun-types": "^1.4.4"
   },
   "scripts": {
     "build": "pnpm run \"/^build:(transpile|types)$/\"",
