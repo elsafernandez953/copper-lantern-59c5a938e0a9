@@ -24,19 +24,19 @@
   "dependencies": {
     "@sentry/eslint-plugin-sdk": "11.12.0",
     "@sentry/typescript": "11.12.0",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "eslint-config-prettier": "^9.1.0",
+    "@typescript-eslint/eslint-plugin": "^8.74.0",
+    "@typescript-eslint/parser": "^8.74.0",
+    "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-deprecation": "^3.0.0",
     "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-jsdoc": "^50.6.1",
+    "eslint-plugin-jsdoc": "^65.5.4",
     "eslint-plugin-simple-import-sort": "^14.0.0"
   },
   "peerDependencies": {
     "eslint": ">=5"
   },
   "devDependencies": {
-    "eslint": "8.57.0"
+    "eslint": "10.15.0"
   },
   "scripts": {
     "clean": "node ../../scripts/rm.mjs sentry-eslint-config-sdk-*.tgz",

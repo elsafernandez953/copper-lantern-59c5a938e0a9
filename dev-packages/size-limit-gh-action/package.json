@@ -14,11 +14,11 @@
     "lint:fix": "oxlint . --fix --type-aware"
   },
   "devDependencies": {
-    "@actions/artifact": "^6.2.1",
+    "@actions/artifact": "^6.3.1",
     "@actions/core": "3.0.1",
-    "@actions/exec": "1.1.1",
+    "@actions/exec": "3.0.0",
     "@actions/github": "^9.1.1",
     "bytes-iec": "3.1.1",
-    "markdown-table": "3.0.4"
+    "markdown-table": "3.1.0"
   }
 }

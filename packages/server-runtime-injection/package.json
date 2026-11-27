@@ -53,9 +53,9 @@
     "@apm-js-collab/tracing-hooks": "^0.14.0",
     "@sentry-internal/rollup-utils": "11.12.0",
     "@types/node": "^20.19.0",
-    "@vercel/nft": "^1.11.0",
-    "meriyah": "^6.1.4",
-    "supports-color": "7.2.0"
+    "@vercel/nft": "^1.11.12",
+    "meriyah": "^7.4.3",
+    "supports-color": "11.0.0"
   },
   "scripts": {
     "build": "pnpm run \"/^build:(transpile|types)$/\"",

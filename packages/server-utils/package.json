@@ -102,17 +102,17 @@
   },
   "dependencies": {
     "@opentelemetry/api": "^1.9.1",
-    "@sentry/conventions": "^0.32.0",
+    "@sentry/conventions": "^0.36.0",
     "@sentry/core": "11.12.0"
   },
   "devDependencies": {
     "@apm-js-collab/code-transformer-bundler-plugins": "^0.7.6",
-    "@neondatabase/serverless": "1.2.0",
+    "@neondatabase/serverless": "1.2.1",
     "@sentry-internal/rollup-utils": "11.12.0",
     "@types/node": "^20.19.0",
-    "meriyah": "^6.1.4",
-    "vite": "^8.3.6",
-    "webpack": "^5.112.2"
+    "meriyah": "^7.4.3",
+    "vite": "^8.3.8",
+    "webpack": "^5.113.0"
   },
   "scripts": {
     "build": "pnpm run \"/^build:(transpile|types)$/\"",
