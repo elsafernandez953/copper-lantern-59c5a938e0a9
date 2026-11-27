@@ -53,11 +53,11 @@
   },
   "dependencies": {
     "@opentelemetry/api": "^1.9.1",
-    "@sentry/conventions": "^0.32.0",
+    "@sentry/conventions": "^0.36.0",
     "@sentry/core": "11.12.0",
     "@sentry/opentelemetry": "11.12.0",
     "@sentry/server-utils": "11.12.0",
-    "magic-string": "~0.30.21"
+    "magic-string": "~1.4.5"
   },
   "peerDependencies": {
     "@cloudflare/workers-types": "^4.x || ^5.x",
@@ -76,12 +76,12 @@
     }
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "5.20260710.1",
+    "@cloudflare/workers-types": "4.20260702.1",
     "@sentry-internal/rollup-utils": "11.12.0",
     "@types/node": "^20.19.0",
-    "acorn": "^8.14.0",
-    "vite": "^8.3.6",
-    "wrangler": "4.156.0"
+    "acorn": "^8.19.0",
+    "vite": "^8.3.8",
+    "wrangler": "4.167.0"
   },
   "scripts": {
     "build": "pnpm run \"/^build:(transpile|types)$/\"",
